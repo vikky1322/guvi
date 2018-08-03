@@ -8,7 +8,7 @@ class Ideone
 		{
 			System.out.println("Even");
 		}
-		else if(n>0)
+		else if(n%2!=0 && n>0)
 		{
 			System.out.println("Odd");
 		}
